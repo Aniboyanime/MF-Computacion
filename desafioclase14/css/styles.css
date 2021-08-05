@@ -1,0 +1,771 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+    
+.titulo
+        {color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Roboto Mono', monospace;
+        }
+ 
+.navegacion li{
+                display: inline-block;
+                margin: 10px; 
+                padding: 10px;
+                border: 1px solid black;
+                
+                
+                
+            
+        }
+                
+                
+     .navegacion li:hover{
+         background-color:lightgray;
+         height: 50px;
+         width: 100px;
+         transition: height 2s;
+
+         
+         
+         
+         
+     }         
+                
+               
+.navegacion{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+
+.navbar 
+        {
+            position: relative;
+            transform: 20%;
+            display: center;
+            
+        }
+
+              
+.seccion p 
+        {font-style: italic;
+            font-size: medium;
+            }       
+             
+
+.productosRecomendados
+{               display: flex;
+                flex-direction: column;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 25%;
+                margin: 60px;
+                border: 5px solid black;
+                image-rendering: auto;
+                background-color: lightgray;
+                font: bold;
+                font-size: medium;
+                color: black;
+                align-content: center;
+            } 
+
+.sistemasOperativos
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    border: 5px solid black;
+    padding: 30%;
+    margin: 60px;
+    text-align:top;
+
+}            
+
+.notebook:hover{
+    transform: scale(1.1);
+   
+}
+.impresora:hover{
+    transform: scale(1.1);
+}    
+.mouse:hover{
+    transform: scale(1.1);
+}
+.cartuchos:hover{
+    transform: scale(1.1);
+}    
+.headset:hover{
+    transform:scale(1.1)
+}
+.monitor:hover{
+    transform: scale(1.1);
+}                
+.redes:hover{
+    transform: scale(1.1);
+}                
+                
+                
+
+
+            
+            .productosDisponibles{
+                font-family: Arial, Helvetica, sans-serif;
+                 padding: 20%;
+                margin: 60px;
+                border: 5px solid black;
+                background-color:lightgray;
+             image-rendering: auto;
+             font: bold;
+             font-size: medium;
+             color: black;
+                    
+                }      
+             
+                
+                
+            
+.acercaDeNosotros
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: lightgray;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;
+                
+                
+            }      
+.mision     {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: lightgray;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;  
+                
+}           
+.servicios  { font-family: Arial, Helvetica, sans-serif;
+    padding: 20%;
+    margin: 80px;
+    background-color: cornsilk;
+    border: 5px solid black;
+    image-rendering: auto;
+    font: bold;
+    font-size: medium;
+    color: black;
+    
+                }
+ 
+                
+                
+                              
+        
+
+
+.footer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    margin: 200px;
+    border: 5px solid black;
+    line-height: 30px;
+    list-style-type: none;
+    color: black;
+    background-color:lightgray;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: center;
+    height: 150px;
+    
+    
+    
+        }
+   
+    
+
+.redes{
+    display: flex;
+    padding: 20px;
+    line-height: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+}    
+
+
+    
+    
+  
+  
+
+    
+        
+        
+        
+       
+.form{
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+         padding: 20%;
+        display: inline-block;
+        margin: 80px;
+        padding: 20%;
+        background-color: cornsilk;
+        border: 5px solid black;
+        image-rendering: auto;
+        font: bold;
+        font-size: medium;
+        color: black;
+    
+   
+    
+    
+     
+    }
+    .form:focus{
+        width: 150px;
+        height: 150px;
+        transition: all 2s;
+    }
+#sistema{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-style: oblique;
+    color: black;
+}
+#limpieza{ font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+           font-style: oblique;
+           color:black; 
+}
+#reparacion{font-family: Arial, Helvetica, sans-serif; 
+            font-size: medium;
+             font-style: oblique;
+             color: black;
+}
+ul,ol {list-style: none;} 
+
+.productosGrid {display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 150px 100px; 
+    grid-template-areas: 
+      "fotos fotos fotos"
+      "fotos fotos fotos"
+      ". . ."; 
+      grid-column: auto;
+      justify-items: center;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+      
+
+      
+      
+            
+           
+       }
+     
+    
+          
+      
+    @media(max-width:1920px){
+        .titulo
+        {color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Roboto Mono', monospace;
+        }
+ 
+.navegacion li{
+                display: inline-block;
+                margin: 10px; 
+                padding: 10px;
+                border: 1px solid black;
+            
+        }
+                
+                
+                
+                
+                
+               
+.navegacion{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.navbar 
+        {
+            position: relative;
+            transform: 20%;
+            display: center;
+        }
+
+              
+.seccion p 
+        {font-style: italic;
+            font-size: medium;
+            }       
+             
+
+.productosRecomendados
+{               display: flex;
+                flex-direction: column;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 25%;
+                margin: 60px;
+                border: 5px solid black;
+                image-rendering: auto;
+                background-color: cornsilk;
+                font: bold;
+                font-size: medium;
+                color: black;
+                align-content: center;
+                
+    
+    
+                
+                
+                
+                
+            } 
+
+            
+            .productosDisponibles{
+                font-family: Arial, Helvetica, sans-serif;
+                 padding: 20%;
+                margin: 60px;
+                border: 5px solid black;
+                background-color: cornsilk;
+             image-rendering: auto;
+             font: bold;
+             font-size: medium;
+             color: black;
+                    
+                }      
+             
+                
+                
+            
+.acercaDeNosotros
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: cornsilk;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;
+                
+                
+            }      
+.mision     {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: cornsilk;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;  
+                
+}           
+.servicios  { font-family: Arial, Helvetica, sans-serif;
+    padding: 20%;
+    margin: 80px;
+    background-color: cornsilk;
+    border: 5px solid black;
+    image-rendering: auto;
+    font: bold;
+    font-size: medium;
+    color: black;
+    
+                }
+ 
+                
+                
+                              
+        
+
+
+.footer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    margin: 200px;
+    border: 5px solid black;
+    line-height: 30px;
+    list-style-type: none;
+    color: black;
+    background-color:cadetblue ;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: center;
+    height: 150px;
+    
+    
+    
+        }
+   
+    
+
+.redes{
+    display: flex;
+    padding: 20px;
+    line-height: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+}    
+    
+    
+  
+  
+
+    
+        
+        
+        
+
+.form{
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+         padding: 20%;
+        display: inline-block;
+        margin: 80px;
+        padding: 20%;
+        background-color: cornsilk;
+        border: 5px solid black;
+        image-rendering: auto;
+        font: bold;
+        font-size: medium;
+        color: black;
+    
+   
+    
+    
+     
+    }
+#sistema{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-style: oblique;
+    color: black;
+}
+#limpieza{ font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+           font-style: oblique;
+           color:black; 
+}
+#reparacion{font-family: Arial, Helvetica, sans-serif; 
+            font-size: medium;
+             font-style: oblique;
+             color: black;
+}
+ul,ol {list-style: none;} 
+
+.productosGrid {display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 150px 100px; 
+    grid-template-areas: 
+      "fotos fotos fotos"
+      "fotos fotos fotos"
+      ". . ."; 
+      grid-column: auto;
+      justify-items: center;
+      align-items: center;
+      justify-content: center;
+
+      
+      
+            
+           
+       }
+
+    }
+        
+    @media(max-width:480px){
+        .titulo
+        {color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Roboto Mono', monospace;
+        }
+ 
+.navegacion li{
+                display:flex;
+                flex-direction: column;
+                margin: 1.5px; 
+                padding: 1.5px;
+                border: 1px solid black;
+                width: 150px;
+                position: left;
+                
+            
+        }
+                
+                
+                
+                
+                
+               
+.navegacion{
+    position: center;
+    left: 0;
+    right: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+    
+    
+}
+
+.navbar 
+        {
+            display: flex;
+            flex-direction: column;
+            position: inherit;
+            transform: 10%;
+            padding-bottom: 5rem;
+           
+            
+            
+            
+        }
+
+              
+.seccion p 
+        {font-style: italic;
+            font-size: medium;
+            }       
+             
+
+.productosRecomendados
+{               display: flex;
+                flex-direction: column;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 25%;
+                margin: 60px;
+                border: 5px solid black;
+                image-rendering: auto;
+                background-color: cornsilk;
+                font: bold;
+                font-size: medium;
+                color: black;
+                align-content: center;
+                
+    
+    
+                
+                
+                
+                
+            } 
+
+            
+            .productosDisponibles{
+                font-family: Arial, Helvetica, sans-serif;
+                 padding: 20%;
+                margin: 60px;
+                border: 5px solid black;
+                background-color: cornsilk;
+             image-rendering: auto;
+             font: bold;
+             font-size: medium;
+             color: black;
+                    
+                }      
+             
+                
+                
+            
+.acercaDeNosotros
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: cornsilk;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;
+                
+                
+            }      
+.mision     {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 80px;
+                padding: 20%;
+                background-color: cornsilk;
+                border: 5px solid black;
+                image-rendering: auto;
+                font: bold;
+                font-size: medium;
+                color: black;  
+                
+}           
+.servicios  { font-family: Arial, Helvetica, sans-serif;
+    padding: 20%;
+    margin: 80px;
+    background-color: cornsilk;
+    border: 5px solid black;
+    image-rendering: auto;
+    font: bold;
+    font-size: medium;
+    color: black;
+    
+                }
+ 
+                
+                
+                              
+        
+
+
+.footer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    margin: 60px;
+    border: 5px solid black;
+    line-height: 30px;
+    list-style-type: none;
+    color: black;
+    background-color:cadetblue ;
+    height: fit-content;
+    flex-direction: column;
+    
+    
+    
+    
+    
+        }
+   
+    
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+}    
+    
+    
+  
+  
+
+    
+        
+        
+        
+       
+.form{
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+         padding: 20%;
+        display: inline-block;
+        margin: 80px;
+        padding: 20%;
+        background-color: cornsilk;
+        border: 5px solid black;
+        image-rendering: auto;
+        font: bold;
+        font-size: medium;
+        color: black;
+    
+   
+    
+    
+     
+    }
+#sistema{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-style: oblique;
+    color: black;
+}
+#limpieza{ font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+           font-style: oblique;
+           color:black; 
+}
+#reparacion{font-family: Arial, Helvetica, sans-serif; 
+            font-size: medium;
+             font-style: oblique;
+             color: black;
+}
+ul,ol {list-style: none;} 
+
+.productosGrid {display: flex;
+    flex-direction: column;
+    
+      
+      
+            
+           
+       }
+    }
+   
+    
+
+
+        
+        
+    
+
+ 
+ 
